@@ -2,6 +2,15 @@
 
 A production-grade API monitoring platform built with Java, Spring Boot, and React. It allows users to register API endpoints, monitors their uptime on a schedule, and generates real-time alerts if they go down.
 
+## 🚀 Live Demo
+
+**Frontend:** https://uptime-pulse.netlify.app/
+
+* **Frontend:** Deployed on **Netlify**
+* **Backend & Services:** Deployed on **Render**
+
+> ⚠️ **Free-Tier Notice:** The backend and supporting services are hosted on Render's free tier. Free instances may spin down after a period of inactivity, so the first request after inactivity can take **around 50 seconds or more** while the services start up. Subsequent requests should respond normally.
+
 ## What problem does this solve?
 
 Teams need to know the exact moment an API goes down, rather than waiting for a customer to complain. This project builds the core of an uptime-monitoring SaaS (similar to Better Stack or UptimeRobot). 
@@ -87,8 +96,8 @@ If you have the Docker Compose environment running locally, you can verify it wo
 
 ```bash
 # Clone the repository
-git clone https://github.com/ishashanknigam/uptimepulse.git
-cd uptimepulse
+git clone https://github.com/ishashanknigam/UptimePulse-API-Monitoring-Platform.git
+cd UptimePulse-API-Monitoring-Platform
 
 # Start all services using Docker Compose
 docker compose up --build -d
